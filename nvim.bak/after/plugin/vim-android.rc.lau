@@ -1,0 +1,4 @@
+local status, android = pcall(require, "vim-android")
+if (not status) then return end
+
+colorizer.setup({})
