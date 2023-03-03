@@ -166,7 +166,7 @@ require("flutter-tools").setup {
     -- This determines whether notifications are show with `vim.notify` or with the plugin's custom UI
     -- please note that this option is eventually going to be deprecated and users will need to
     -- depend on plugins like `nvim-notify` instead.
-    notification_style = 'native' | 'plugin'
+    notification_style = 'native' | 'plugin',
   },
   decorations = {
     statusline = {
@@ -184,7 +184,7 @@ require("flutter-tools").setup {
     run_via_dap = false, -- use dap instead of a plenary job to run flutter apps
     -- if empty dap will not stop on any exceptions, otherwise it will stop on those specified
     -- see |:help dap.set_exception_breakpoints()| for more info
-    exception_breakpoints = {},
+    exception_breakpoints = {}
     register_configurations = function(paths)
       require("dap").configurations.dart = {
         <put here config that you would find in .vscode/launch.json>

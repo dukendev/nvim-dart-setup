@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/sanjeet-dev/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/Users/sanjeet-dev/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/Users/sanjeet-dev/.local/share/nvim/site/pack/packer/start/git.nvim",
